@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@keyframes signBlink{
+    100%{
+        text-shadow:
+        0 0 7px #97c0fc,
+        0 0 10px #97c0fc,
+        0 0 21px #97c0fc,
+        0 0 42px #97c0fc,
+        0 0 82px #182ac7,
+        0 0 92px #182ac7,
+        0 0 102px #182ac7,
+        0 0 151px #182ac7;
+    }
+    0%{
+        text-shadow:
+        0 0 2px #97c0fc,
+        0 0 3px #97c0fc,
+        0 0 7px #97c0fc,
+        0 0 18px #97c0fc,
+        0 0 37px #182ac7,
+        0 0 43px #182ac7,
+        0 0 47px #182ac7,
+        0 0 78px #182ac7;
+    }
+}
+h1{ text-align: center;
+    font-family: 'Tilt Neon',sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+    font-variant-numeric: tabular-nums;
+    color: #fff;
+    text-shadow:
+    0 0 7px #bcefff,
+    0 0 10px #bcefff,
+    0 0 21px #bcefff,
+    0 0 42px #182ac7,
+    0 0 82px #182ac7,
+    0 0 92px #182ac7,
+    0 0 102px #182ac7,
+    0 0 151px #182ac7;
+animation: signBlink 2.5s infinite alternate;}
+table{
+    border-radius: 10px;
+    border-collapse: separate;
+    box-shadow: 0px 0px 40px #f34fff;
+    padding: 15px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2px;
+}
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button{
+    width: 100%;
+    font-family: 'Tilt Neon';
+    background-color: transparent;
+    color: #f34fff;
+    border: none;
+}
+.neon{
+    -webkit-filter: drop-shadow(0 0 100px #182ac7);
+    filter: drop-shadow(0 0 20px #182ac7);
+}
