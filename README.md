@@ -3,7 +3,7 @@
 KaraokeBar is a web-based karaoke management application that allows
 singers to search for songs, select karaoke versions, and join a
 singing queue. DJs can manage the queue and control the order in
-which singers perform.
+which singers perform. This was created in a group project of my self and 2 other peers
 
 ## Features
 
