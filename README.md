@@ -1,4 +1,5 @@
 # KaraokeBar
+URL: https://students.cs.niu.edu/~z1999005/karaokeBar_home.php
 
 KaraokeBar is a web-based karaoke management application that allows
 singers to search for songs, select karaoke versions, and join a
@@ -149,6 +150,3 @@ DO NOT implement a login system for your application. You will lose points if yo
     ▶ It makes grading the application harder. Several groups in the past have made logging on necessary to access their interface and forgotten to provide
        the credentials needed to access the portions of the pages that need to be checked for requirements.
 DO NOT store any real payment information in your database
-
-
-URL: https://students.cs.niu.edu/~z1999005/karaokeBar_home.php
