@@ -1,3 +1,93 @@
+# KaraokeBar
+
+KaraokeBar is a web-based karaoke management application that allows
+singers to search for songs, select karaoke versions, and join a
+singing queue. DJs can manage the queue and control the order in
+which singers perform.
+
+## Features
+
+### Singer Interface
+- Search for songs by title or artist
+- View available karaoke versions
+- Add songs to the singing queue
+- Join either the standard or priority queue
+- View the current queue
+
+### DJ Interface
+- View the current singing queue
+- Manage and advance the queue
+- View singer and song information
+- Support priority singers
+
+## Technologies
+
+- PHP
+- SQL / Relational Database
+- HTML
+- CSS
+- JavaScript
+- Hack
+
+## Database
+
+The application uses a relational database to manage:
+
+- Songs
+- Artists and contributors
+- Karaoke files
+- Users
+- Singing queues
+- Queue entries
+
+The database uses relationships between these entities to allow songs,
+artists, karaoke versions, and queue information to be managed
+independently.
+
+## Application Structure
+
+The application provides separate interfaces for singers and DJs.
+
+**Singer workflow:**
+
+Search for a song → Select a karaoke version → Join queue → Wait to perform
+
+**DJ workflow:**
+
+View queue → Manage singers → Advance to next performance
+
+## Screenshots
+
+_Add screenshots of the main singer and DJ interfaces here._
+
+## Project Highlights
+
+- Designed and implemented database-backed application functionality
+- Built song searching and karaoke-version selection
+- Implemented queue management and priority queue behavior
+- Created separate workflows for singers and DJs
+- Worked with relational database queries and application logic
+
+## Running the Project
+
+_Add the actual setup instructions here._
+
+1. Clone the repository
+2. Set up the required database
+3. Configure the database connection
+4. Start the PHP application
+5. Open the application in a web browser
+
+## Project Background
+
+This project was developed as part of a college software development
+course. The project involved designing a database-backed web
+application and implementing the required functionality for both
+singers and DJs.
+
+This project was to demonstrate proficiency with basic database design   
+
+The Following were the requirements of the project
 Application
 
     The application you will be designing and implementing will be a web-based, database driven tool to facilitate the running of karaoke events at a bar or
